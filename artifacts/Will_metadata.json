@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deceased",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setInheritance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"will.sol": "Will"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"will.sol": {
+			"keccak256": "0xdeee1a6cf19de9d48b8395dddb04a605084d4367ff008ca0bf15124ac3c6ca28",
+			"urls": [
+				"bzz-raw://030251f75e58ae91a09aa4aa07d6ff58da43b89a667e0102bd15abcbf7101670",
+				"dweb:/ipfs/QmVooJYDwTNdKXEpD1E7YkJYDiH5m4X8ejRyBxatNFAVqp"
+			]
+		}
+	},
+	"version": 1
+}
